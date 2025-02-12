@@ -14,14 +14,20 @@ const AboutUs = () => {
             About ApanaConstraction
           </h2>
           <p className="text-md text-gray-600 text-justify dark:text-gray-300">
-            We are a leading construction company with a legacy of excellence. With decades of experience, we deliver innovative and high-quality solutions tailored to your needs. Our team of experts ensures every project is completed on time, within budget, and to the highest standards.
-            Our focus on sustainable and eco-friendly practices ensures that we contribute positively to the environment while delivering exceptional results. We are passionate about creating structures that stand the test of time and provide value to our clients.
-            At JhonTraktor, we are passionate about building innovative solutions that transform ideas into reality.
+          Apana Construction is a premier construction firm known for its legacy of excellence. 
+          With decades of industry experience, we specialize in delivering innovative, 
+          high-quality solutions that are customized to meet your specific needs. 
+          Our dedicated team of experts ensures that every project is executed on time, within budget, and to the highest standards of quality.
           </p>
           <p className="text-md text-gray-600 text-justify dark:text-gray-300">
-            From residential buildings to commercial projects, our commitment to integrity and customer satisfaction sets us apart in the industry.
-            Whether it’s cutting-edge construction projects, creative designs, or reliable support, our goal is to exceed expectations and build lasting relationships.
+          We prioritize sustainable and eco-friendly practices, making a positive impact on the environment while 
+          achieving exceptional results. At Apana Construction, we are committed to creating enduring structures that provide long-term 
+          value for our clients. Our passion lies in transforming ideas into reality, delivering projects that stand the test of time.
           </p>
+          <p className="text-md text-gray-600 text-justify dark:text-gray-300">
+          Driven by integrity and a focus on customer satisfaction, we distinguish ourselves in the industry. 
+          Whether it is residential buildings, commercial developments,
+           or innovative construction projects, our goal is to consistently exceed expectations and build lasting relationships with our clients.</p>
           
           <div className="flex justify-center">
             <Link

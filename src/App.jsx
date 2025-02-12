@@ -7,10 +7,10 @@ import CountUp from './Components/CountUp/CountUp';
 import Experiences from './Components/Experiences/Experiences';
 import WorkFlow from './Components/WorkFlow/WorkFlow';
 import Projects from './Components/Projects/Projects';
-import TestiMonial from './Components/TestiMonial/TestiMonial';
+// import TestiMonial from './Components/TestiMonial/TestiMonial';
 import ContactUs from './Components/ContactUs/ContactUs';
-import Blog from './Components/Blog/Blog';
-import Faq from './Components/Faq/Faq';
+// import Blog from './Components/Blog/Blog';
+// import Faq from './Components/Faq/Faq';
 import Footer from './Components/Footer/Footer';
 import Contracter from './Components/Contracter/Contracter';
 
@@ -44,18 +44,18 @@ const App = () => {
       <section id='project'>
         <Projects/>
       </section>
-      <section id='testiMonial'>
+      {/* <section id='testiMonial'>
         <TestiMonial/>
-      </section>
+      </section> */}
       <section id='contact'>
         <ContactUs/>
       </section>
-      <section id='blog'>
+      {/* <section id='blog'>
         <Blog/>
       </section>
       <section id='faq'>
         <Faq/>
-      </section>
+      </section> */}
       <section id='footer'>
         <Footer/>
       </section>
