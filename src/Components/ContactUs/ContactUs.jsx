@@ -29,9 +29,10 @@ const ContactSection = () => {
         confirmButtonColor: "#ff6600",
       });
       setFormData({ name: "", email: "", phone: "", service: "Select a Service", message: "" });
+    // eslint-disable-next-line no-unused-vars
     } catch (error) {
       Swal.fire({
-        title: "Error!",
+        title: "Error!☹️",
         text: "Something went wrong. Please try again.",
         icon: "error",
         confirmButtonColor: "#ff6600",
