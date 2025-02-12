@@ -115,7 +115,7 @@ const Footer = () => {
         {/* Divider */}
         <div className="border-t border-gray-800 mt-8 pt-4 text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} <span className="font-bold text-gray-200">Johntraktor</span>. All rights reserved.
+            &copy; {new Date().getFullYear()} <span className="font-bold text-gray-200">ApanaTime</span>. All rights reserved.
           </p>
         </div>
       </div>
