@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import {
   FaFacebookF,
   FaTwitter,
@@ -16,22 +16,22 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div>
-            <h3 className="text-2xl font-bold text-orange-500 mb-4">Johntraktor</h3>
+            <h3 className="text-2xl font-bold text-orange-500 mb-4">ApanaConstruction</h3>
             <p className="text-gray-200">
               We deliver exceptional construction, renovation, and design services tailored to your needs.
             </p>
             <div className="mt-4 space-y-2">
               <div className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="text-orange-500" />
-                <span>465 Main Street, Melbourne, Australia</span>
+                <span>Borivali, Mumbai, India, 400001</span>
               </div>
               <div className="flex items-center space-x-2">
                 <FaPhoneAlt className="text-orange-500" />
-                <span>+123 456 7890</span>
+                <span>+91 8928567312</span>
               </div>
               <div className="flex items-center space-x-2">
                 <FaEnvelope className="text-orange-500" />
-                <span>info@johntraktor.com</span>
+                <span>apanaconstructionac@gmail.com</span>
               </div>
             </div>
           </div>
@@ -97,13 +97,13 @@ const Footer = () => {
                 <FaTwitter className="text-white" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/apanaconstruction?igsh=bmtzOHRsNjVpaWFx" target="_blank"
                 className="bg-gray-800 p-3 rounded-full hover:bg-orange-500 transition"
               >
                 <FaInstagram className="text-white" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/apana-time/" target="_blank"
                 className="bg-gray-800 p-3 rounded-full hover:bg-orange-500 transition"
               >
                 <FaLinkedinIn className="text-white" />
