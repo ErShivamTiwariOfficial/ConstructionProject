@@ -1,4 +1,14 @@
+
 // src/firebase.js
+
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+// import { getFirestore } from "firebase/firestore";
+// import { initializeApp } from "firebase/app"
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
@@ -15,4 +25,16 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
+// Import the functions you need from the SDKs you need
+
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measureme
+
+// Initialize Firebase Anal
+
+const db = getAnalytics(app);
 export { db };
