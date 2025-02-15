@@ -1,23 +1,23 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 // import { FiSun, FiMoon } from "react-icons/fi";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+// import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
 // import Logo from './Logo.png';
 
 const Navbar = () => {
   // const [darkMode, setDarkMode] = useState(true);
-  const [darkMode] = useState(true);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [darkMode] = useState(true);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // const [isModalOpen, setIsModalOpen] = useState(false);
   
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [darkMode]);
+  // useEffect(() => {
+  //   if (darkMode) {
+  //     document.documentElement.classList.add("dark");
+  //   } else {
+  //     document.documentElement.classList.remove("dark");
+  //   }
+  // }, [darkMode]);
 
   return (
     <nav className="bg-white dark:bg-gray-800 shadow-md fixed top-0 w-full z-10 transition-all duration-1000">
@@ -72,19 +72,19 @@ const Navbar = () => {
           </a>
 
           {/* Hamburger Menu Button */}
-          <button
+          {/* <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden p-2 text-gray-800 dark:text-gray-200 focus:outline-none"
           >
             {isMenuOpen ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
-          </button>
+          </button> */}
         </div>
       </div>
 
       {/* Mobile Links */}
-      {isMenuOpen && (
+      {/* {isMenuOpen && ( */}
         <div className="md:hidden bg-gray-100 dark:bg-gray-900 p-4 space-y-2">
-          {["Home", "About", "Services", "Projects", "Contact"].map((item) => (
+          {/* {["Home", "About", "Services", "Projects", "Contact"].map((item) => (
             <Link
               key={item}
               to={item.toLowerCase()}
@@ -95,7 +95,7 @@ const Navbar = () => {
             >
               {item}
             </Link>
-          ))}
+          ))} */}
 
           {/* Mobile Contact Us Button */}
           
@@ -111,7 +111,6 @@ const Navbar = () => {
             WhatsApp
           </a>
         </div>
-      )}
     </nav>
   );
 };
