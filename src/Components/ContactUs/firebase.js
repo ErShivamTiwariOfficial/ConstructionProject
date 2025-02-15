@@ -2,6 +2,7 @@
 // src/firebase.js
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+
 // import { getFirestore } from "firebase/firestore";
 // import { initializeApp } from "firebase/app"
 import { initializeApp } from "firebase/app";
@@ -30,6 +31,7 @@ const db = getFirestore(app);
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
 
+// Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyDHxBZAd9IcZG2R_y5TtLlSnSm_qh05o8c",
   authDomain: "apanaconstruction-953b1.firebaseapp.com",
@@ -42,5 +44,13 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+// Initialize Firebase Analytics
+const analytics = getAnalytics(app);
+
+export { analytics };
+
 const db = getAnalytics(app);
 export { db };
+>
+>>>>>> main
