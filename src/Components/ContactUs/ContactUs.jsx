@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaUsers, FaCheckCircle, FaFlask, FaDollarSign } from "react-icons/fa";
-import { db } from "./firebase"; // Import Firebase
+import { analytics } from "./firebase"; // Import Firebase
 import { collection, addDoc } from "firebase/firestore";
 import Swal from "sweetalert2";
 import './Style.css';
@@ -21,7 +21,7 @@ const ContactSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await addDoc(collection(db, "contacts"), formData);
+      await addDoc(collection(analytics, "contacts"), formData);
       Swal.fire({
         title: "Success!",
         text: "Your message has been sent successfully!",
