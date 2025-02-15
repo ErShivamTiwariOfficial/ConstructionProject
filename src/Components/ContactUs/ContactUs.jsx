@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaUsers, FaCheckCircle, FaFlask, FaDollarSign } from "react-icons/fa";
-import { analytics } from "./firebase"; // Import Firebase
+import { FireBase } from "./firebase"; // Import Firebase
 import { collection, addDoc } from "firebase/firestore";
 import Swal from "sweetalert2";
 import './Style.css';
@@ -21,7 +21,7 @@ const ContactSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await addDoc(collection(analytics, "contacts"), formData);
+      await addDoc(collection(FireBase, "contacts"), formData);
       Swal.fire({
         title: "Success!",
         text: "Your message has been sent successfully!",
@@ -29,10 +29,11 @@ const ContactSection = () => {
         confirmButtonColor: "#ff6600",
       });
       setFormData({ name: "", email: "", phone: "", service: "Select a Service", message: "" });
-    // eslint-disable-next-line no-unused-vars
-    } catch (error) {
+    } 
+    //Error handling
+    catch (  error) {
       Swal.fire({
-        title: "Error!☹️",
+        title: "Error! ☹️",
         text: "Something went wrong. Please try again.",
         icon: "error",
         confirmButtonColor: "#ff6600",
