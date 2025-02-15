@@ -24,7 +24,8 @@ const Navbar = () => {
         
         {/* Logo */}
 
-        <div className="flex-shrink-0 text-3xl text-orange-600 font-extrabold dark:text-orange-600">
+        {/* <div className="flex-shrink-0 text-3xl text-yellow-600 font-extrabold dark:text-Yellow-600"> */}
+        <div className="flex-shrink-0 text-3xl text-yellow-600 font-extrabold dark:rgb(216 172 78);" >
             ApanaConstraction
         </div>
       
