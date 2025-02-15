@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
-import { FiSun, FiMoon } from "react-icons/fi";
+// import { FiSun, FiMoon } from "react-icons/fi";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
 // import Logo from './Logo.png';
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(true);
+  // const [darkMode, setDarkMode] = useState(true);
+  const [darkMode] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // const [isModalOpen, setIsModalOpen] = useState(false);
@@ -48,7 +49,7 @@ const Navbar = () => {
         {/* Right-Side Buttons */}
         <div className="flex items-center space-x-4">
           {/* Dark/Light Mode Toggle */}
-          <button
+          {/* <button
             onClick={() => setDarkMode(!darkMode)}
             className="p-2 rounded-full bg-gray-200 dark:bg-gray-900 focus:outline-none"
           >
@@ -57,7 +58,7 @@ const Navbar = () => {
             ) : (
               <FiMoon className="text-gray-800" size={20} />
             )}
-          </button>
+          </button> */}
 
           {/* Contact Us Button */}
           <a
