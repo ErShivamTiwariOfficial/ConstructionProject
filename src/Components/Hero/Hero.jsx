@@ -1,5 +1,5 @@
 // src/components/Hero.jsx
-import React from 'react';
+// import React from 'react';
 import { FiCheckCircle } from 'react-icons/fi';
 import { Link } from "react-scroll";
 
@@ -12,12 +12,12 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto text-center mt-24 relative">
         {/* Headline */}
         <h1 style={{fontSize: '60px'}} className="text-3xl sm:text-5xl font-extrabold leading-tight text-gray-800 dark:text-gray-100">
-        Build Your Dreams with <span className="text-orange-600">Confidence</span>
+        Your Dream, Our Commitment to   <span className="text-orange-600">Excellence</span>
         </h1>
 
         {/* Subheadline */}
         <p className="mt-6 text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-          Your trusted partner for all construction projects. From foundations to finishing touches, we ensure quality and satisfaction at every step.
+        Reliable construction partner, delivering excellence from groundwork to final details with quality and commitment at every stage.
         </p>
 
         {/* Call-to-Action Buttons */}
@@ -28,7 +28,7 @@ const Hero = () => {
             duration={500}
             className="px-6 py-3 bg-orange-500 text-white cursor-pointer font-medium rounded hover:bg-orange-600 dark:bg-orange-500 dark:hover:bg-orange-600 hover:scale-105 transition"
           >
-            Our Services
+            Explore Services                         
           </Link>
           <Link
             to="project"
@@ -36,7 +36,7 @@ const Hero = () => {
             duration={600}
             className="px-6 py-3 cursor-pointer bg-gray-200 text-gray-600 font-medium rounded hover:bg-gray-300 dark:bg-gray-200 dark:text-gray-700 dark:hover:bg-gray-300 hover:scale-105 transition"
           >
-            View Projects
+            Explore Projects
           </Link>
         </div>
 
@@ -44,15 +44,15 @@ const Hero = () => {
         <div className="mt-20 flex justify-center space-x-8">
           <div className="flex items-center space-x-2">
             <FiCheckCircle size={24} className="text-blue-500 dark:text-blue-400" />
-            <span className="text-gray-800 dark:text-gray-200">Top-Quality Materials</span>
+            <span className="text-gray-800 dark:text-gray-200">Best-in-Class Materials</span>
           </div>
           <div className="flex items-center space-x-2">
             <FiCheckCircle size={24} className="text-blue-500 dark:text-blue-400" />
-            <span className="text-gray-800 dark:text-gray-200">Expert Team</span>
+            <span className="text-gray-800 dark:text-gray-200">Best-in-Class Materials</span>
           </div>
           <div className="flex items-center space-x-2">
             <FiCheckCircle size={24} className="text-blue-500 dark:text-blue-400" />
-            <span className="text-gray-800 dark:text-gray-200">On-Time Delivery</span>
+            <span className="text-gray-800 dark:text-gray-200">Timely Delivery</span>
           </div>
         </div>
       </div>
