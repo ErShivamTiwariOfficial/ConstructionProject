@@ -1,5 +1,5 @@
 // src/firebase.js
-import { initializeApp } from "firebase/app";
+// import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 // import { getFirestore } from "firebase/firestore";
 // import { initializeApp } from "firebase/app";
@@ -38,7 +38,8 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const db = getAnalytics(app);
+// const app = initializeApp(firebaseConfig);
+// const db = getAnalytics(app);
+const db = getAnalytics(firebaseConfig);
 
 export { db };
