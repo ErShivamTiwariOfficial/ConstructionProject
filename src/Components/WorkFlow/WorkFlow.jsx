@@ -26,7 +26,7 @@ const ProjectStepsHorizontalLine = () => {
               Step 1: Planning & Designing
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">
-              Laying out the roadmap and creating initial designs for the project.
+            Developing a strategic roadmap and crafting innovative designs to shape the vision and direction of project.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ const ProjectStepsHorizontalLine = () => {
               Step 2: Design & Development
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">
-              Transforming designs into functional and user-friendly solutions.
+            Bringing concepts to life by refining designs and developing practical, efficient, and user-centric solutions.
             </p>
           </div>
 
@@ -58,7 +58,7 @@ const ProjectStepsHorizontalLine = () => {
               Step 3: Construction
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">
-              Building the project with precision and adhering to high standards.
+            Executing the build with accuracy, quality craftsmanship, and strict adherence to industry standards.
             </p>
           </div>
 
@@ -74,7 +74,7 @@ const ProjectStepsHorizontalLine = () => {
               Step 4: Testing & Handover
             </h3>
             <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">
-              Ensuring quality and delivering the completed project to the client.
+            Conducting thorough quality checks and finalizing details before delivering a flawless project to the client.
             </p>
           </div>
         </div>
