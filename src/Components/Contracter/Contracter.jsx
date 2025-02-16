@@ -221,7 +221,7 @@ const ContracterSection = () => {
       id: 6,
       title: "Plumber",
       description:
-        "Uncover how cities are evolving with smart technology and sustainable practices.",
+        "Discover how urban landscapes are transforming with innovative smart technology and eco-friendly solutions.",
       img: image_6,
       date: "January 2, 2025",
       author: "David Kim",
@@ -230,7 +230,7 @@ const ContracterSection = () => {
       id: 7,
       title: "Welder",
       description:
-        "Creative and very sustainable architectural designs that bring your vision to life. We combine innovation with practicality to deliver designs that are both functional and aesthetically pleasing.",
+        "Experience cutting-edge architectural designs that blend creativity with sustainability. Our innovative approach ensures practical, functional, and visually stunning results tailored to your vision.",
         img: image_6,
         date: "January 2, 2025",
         author: "David Kim",
@@ -239,7 +239,7 @@ const ContracterSection = () => {
       id: 8,
       title: "Painter",
       description:
-        "Creative and very sustainable architectural designs that bring your vision to life. We combine innovation with practicality to deliver designs that are both functional and aesthetically pleasing.",
+        "Sustainable, creative, and visually striking designs tailored to your vision.",
         img: image_6,
         date: "January 2, 2025",
         author: "David Kim",
@@ -248,7 +248,7 @@ const ContracterSection = () => {
       id: 9,
       title: "Tile Setter",
       description:
-        "Creative and very sustainable architectural designs that bring your vision to life. We combine innovation with practicality to deliver designs that are both functional and aesthetically pleasing.",
+        "Crafting durable, stylish, and sustainable designs that elevate your space.",
         img: image_6,
         date: "January 2, 2025",
         author: "David Kim",
@@ -257,7 +257,7 @@ const ContracterSection = () => {
       id: 10,
       title: "Roofer",
       description:
-        "Creative and very sustainable architectural designs that bring your vision to life. We combine innovation with practicality to deliver designs that are both functional and aesthetically pleasing.",
+        "Innovative, durable, and sustainable roofing solutions designed for style and function.",
         img: image_6,
         date: "January 2, 2025",
         author: "David Kim",
@@ -266,7 +266,7 @@ const ContracterSection = () => {
       id: 11,
       title: "POP",
       description:
-        "Creative and very sustainable architectural designs that bring your vision to life. We combine innovation with practicality to deliver designs that are both functional and aesthetically pleasing.",
+        "Stylish, durable, and sustainable designs that enhance your space with creativity.",
         img: image_6,
         date: "January 2, 2025",
         author: "David Kim",
@@ -275,7 +275,7 @@ const ContracterSection = () => {
       id: 11,
       title: "Rental Tent House",
       description:
-        "Creative and very sustainable architectural designs that bring your vision to life. We combine innovation with practicality to deliver designs that are both functional and aesthetically pleasing.",
+        "Elegant, durable, and sustainable tent solutions tailored for any occasion.",
         img: image_6,
         date: "January 2, 2025",
         author: "David Kim",

@@ -81,7 +81,7 @@ const ContactSection = () => {
           </form>
         </div>
         <div className="rounded-lg overflow-hidden shadow-md">
-          <iframe className="w-full h-96 meramap rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093706!2d144.9556515153179!3d-37.81732797975192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772c54c0c94b12!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1632736804720!5m2!1sen!2sau" allowFullScreen="" loading="lazy"></iframe>
+          <iframe className="w-full h-96 meramap rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60274.592157080064!2d72.8045042083099!3d19.231769843093478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b128b333e163%3A0x985640540577af7e!2sBorivali%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1739684841202!5m2!1sen!2sin" allowFullScreen="" loading="lazy"></iframe>
         </div>
       </div>
     </section>

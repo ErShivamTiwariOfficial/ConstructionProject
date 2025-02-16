@@ -5,25 +5,25 @@ const services = [
   {
     id: 1,
     title: 'Residential Construction',
-    description: 'High-quality and customized residential construction services to build your dream home. We ensure every detail is meticulously planned and executed, providing a space that reflects your vision and lifestyle.',
+    description: 'We provide high-quality, customized residential construction services to bring your dream home to life. With expert craftsmanship, premium materials, and sustainable practices, we ensure every detail is meticulously executed. From new builds to renovations, we create functional, stylish, and durable homes that reflect your vision and lifestyle.',
     icon: '🏠',
   },
   {
     id: 2,
     title: 'Commercial Projects',
-    description: 'Innovative and very efficient solutions for commercial spaces tailored to your business needs. Our team delivers projects that enhance productivity, aesthetics, and functionality, ensuring a thriving work environment.',
+    description: 'We deliver innovative, efficient solutions for commercial spaces designed to meet your business needs. Our expert team focuses on functionality, aesthetics, and productivity, creating environments that foster success. From office buildings to retail spaces, we ensure high-quality execution, sustainability, and seamless project management for a thriving workspace.',
     icon: '🏢',
   },
   {
     id: 3,
     title: 'Renovation Services',
-    description: 'Transform your spaces with our expert renovation and remodeling services. From concept to completion, we revitalize your property with modern designs and premium quality craftsmanship.',
+    description: 'We create efficient, innovative commercial spaces tailored to your business needs. Our team prioritizes functionality, aesthetics, and sustainability to enhance productivity and success. From offices to retail spaces, we ensure seamless execution, high-quality craftsmanship, and modern design solutions that elevate your workspace and support long-term growth.',
     icon: '🔧',
   },
   {
     id: 4,
     title: 'Architecture Design',
-    description: 'Creative and very sustainable architectural designs that bring your vision to life. We combine innovation with practicality to deliver designs that are both functional and aesthetically pleasing.',
+    description: 'We create innovative, sustainable architectural designs that blend creativity with functionality. Our approach ensures aesthetically stunning and practical spaces tailored to your vision. By combining modern techniques with eco-friendly solutions, we deliver designs that enhance both form and function, creating environments that are both inspiring and efficient.',
     icon: '📐',
   },
 ];

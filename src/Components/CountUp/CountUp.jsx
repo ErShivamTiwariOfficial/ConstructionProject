@@ -1,5 +1,5 @@
 // src/components/CounterAnimation.jsx
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { FaBuilding, FaSmileBeam, FaTools, FaTrophy } from 'react-icons/fa';
 
 const counters = [
@@ -19,7 +19,7 @@ const counters = [
     id: 3,
     icon: <FaTools className="text-green-500 text-6xl mb-4" />,
     title: 'Years of Experience',
-    endValue: 25,
+    endValue: 30,
   },
   {
     id: 4,
