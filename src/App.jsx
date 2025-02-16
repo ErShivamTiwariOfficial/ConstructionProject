@@ -17,7 +17,7 @@ import Contracter from './Components/Contracter/Contracter';
 const App = () => {
   return (
     <div>
-      <section>
+      <section id='navbar'>
         <Navbar />
       </section>
       <section id='home'>

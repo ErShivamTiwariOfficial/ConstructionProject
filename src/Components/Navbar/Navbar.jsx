@@ -4,7 +4,13 @@
 import { Link } from "react-scroll";
 // import Logo from './Logo.png';
 
+// import React from 'react';
+import './TopBar.css';
+
+
+
 const Navbar = () => {
+  
   // const [darkMode, setDarkMode] = useState(true);
   // const [darkMode] = useState(true);
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +26,35 @@ const Navbar = () => {
   // }, [darkMode]);
 
   return (
+    
     <nav className="bg-white dark:bg-gray-800 shadow-md fixed top-0 w-full z-10 transition-all duration-1000">
+
+      {/* Top Bar Section Start
+       */}
+    <div className="topbar-container">
+  <div className="topbar-content">
+    <div className="contact-info">
+      <span>📍 Borivali, Mumbai, India</span>
+      <a href="mailto:apanaconstructionac@gmail.com">📧 apanaconstructionac@gmail.com</a>
+      <a href="tel:+918928567312">📞 +918928567312</a>
+    </div>
+    {/* <div className="social-media">
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-twitter">Twitter</i>
+      </a>
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-facebook">Facebook</i>
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-linkedin">Linkdin</i>
+      </a>
+    </div> */}
+  </div>
+</div>
+
+
+{/* TopBar Section End */}
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         
         {/* Logo */}
