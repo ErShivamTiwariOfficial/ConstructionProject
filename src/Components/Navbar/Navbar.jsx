@@ -58,14 +58,16 @@ const Navbar = () => {
   </button> */}
 
   {/* Contact Us Button */}
-  <Link
+  <a
     to="contact"
-    smooth={true}
-    duration={500}
+    href='https://wa.me/+918928567312'
+          target='_blank'
+    // smooth={true}
+    // duration={500}
     className="hidden md:block bg-orange-500 dark:bg-orange-600 cursor-pointer text-white px-5 py-2 rounded-lg font-semibold hover:bg-orange-600 dark:hover:bg-orange-700 transition-all shadow-md"
   >
-    Contact Us
-  </Link>
+    WhatsApp
+  </a>
 
   {/* Hamburger Menu Button */}
   <button
@@ -94,15 +96,16 @@ const Navbar = () => {
   ))}
 
   {/* Mobile Contact Us Button */}
-  <Link
+  <a
     to="contact"
-    smooth={true}
-    duration={500}
-    className="block text-center bg-orange-500 dark:bg-orange-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-orange-600 dark:hover:bg-orange-700 transition-all shadow-md"
-    onClick={() => setIsMenuOpen(false)}
+    href='https://wa.me/+918928567312'
+          target='_blank'
+    // smooth={true}
+    // duration={500}
+    className="hidden md:block bg-orange-500 dark:bg-orange-600 cursor-pointer text-white px-5 py-2 rounded-lg font-semibold hover:bg-orange-600 dark:hover:bg-orange-700 transition-all shadow-md"
   >
-    Contact Us
-  </Link>
+    WhatsApp
+  </a>
 </div>
 )}
 </nav>
